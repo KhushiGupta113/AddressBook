@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
     , hashTable(TABLE_SIZE)
 {
-    setWindowIcon(QIcon("E:/AddressBookv1-2345/AddressBookv1/icon.jpg"));
+    setWindowIcon(QIcon("C:/Users/Khushi/Documents/AddressBookv1/icon.jpg"));
     // setWindowFlags(windowFlags() & ~Qt::WindowMaximizeButtonHint);
     ui->setupUi(this);
 
